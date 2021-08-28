@@ -468,7 +468,6 @@ justify-content: center;
   /* small  */
   @media (max-width: 450px) {
     #landing-page{
-      height: 95vh;
       background-size: 291%;
       background-position-y: 65%;
       background-position-x: 48%;
@@ -546,3 +545,7 @@ justify-content: center;
   {
     display: block !important;
   }
+  .stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}

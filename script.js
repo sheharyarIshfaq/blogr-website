@@ -11,6 +11,7 @@ const showNavbarHandler = ()=>{
     closeBtn.classList.add('d-block')
     backdrop.classList.remove('d-none');
     backdrop.classList.add('d-block');
+    document.body.classList.add("stop-scrolling");
 }
 const hideNavbarHandler = ()=>{
     navbar.classList.remove('show-navbar');
@@ -20,6 +21,7 @@ const hideNavbarHandler = ()=>{
     closeBtn.classList.add('d-none')
     backdrop.classList.remove('d-block');
     backdrop.classList.add('d-none');
+    document.body.classList.remove("stop-scrolling");
 }
 const backdropHandler = ()=>{
     navbar.classList.remove('show-navbar');

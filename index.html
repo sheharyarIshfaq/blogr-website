@@ -16,20 +16,28 @@
         <!-- landing page -->
         <section id="landing-page">
             <header>
-                <div class="left">
-                    <img src="/images/logo.svg" alt="Blogr">
-                    <nav class="navbar">
-                        <ul>
-                            <li><a href="#">Product</a></li>
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Connect</a></li>
-                        </ul>
-                    </nav>
+                <img src="/images/logo.svg" alt="Blogr">
+                <div class="responsive-navbar">
+                    <button class="hamburger d-block"><img src="/images/icon-hamburger.svg" alt=""></button>
+                    <button class="close d-none"><img src="/images/icon-close.svg" alt=""></button>
+                   </div>
+                <div class="backdrop d-none"></div>
+                <div class="large-navbar">
+                    <div class="left">
+                        <nav class="navbar">
+                            <ul>
+                                <li><a href="#">Product</a></li>
+                                <li><a href="#">Company</a></li>
+                                <li><a href="#">Connect</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="right">
+                        <button class="btn-secondary">Login</button>
+                        <button class="btn-primary">Signup</button>
+                    </div>
                 </div>
-                <div class="right">
-                    <button class="btn-secondary">Login</button>
-                    <button class="btn-primary">Signup</button>
-                </div>
+               
             </header>
             <main class="main-container">
                 <div class="text-container">
@@ -47,7 +55,7 @@
             <h1>Designed for the future</h1>
             <div class="container">
                 <div class="left">
-                    <div class="feature-container">
+                    <div class="feature-container first-feature-container">
                         <h2>Introducing an extensible editor</h2>
                         <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating
                             content. The editor supports management of multiple blogs and allows easy manipulation of
@@ -124,6 +132,7 @@
                 <p>Newsletter</p>
                 <p>Linkedin</p>
             </div>
+            <p class="footer-para">&copy; Blogr 2021-2022. All Rights Reserved</p>
         </div>
     </footer>
 

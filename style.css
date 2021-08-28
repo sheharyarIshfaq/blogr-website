@@ -468,8 +468,16 @@ justify-content: center;
   /* small  */
   @media (max-width: 450px) {
     #landing-page{
-      height: 98vh;
+      height: 95vh;
+      background-size: 291%;
+      background-position-y: 65%;
+      background-position-x: 48%;
     }
+    #mobile-section {
+      background-size: 150%;
+    background-position-y: 275%;
+    background-position-x: 48%;
+  }
     .text-container h1 {
       font-size: 2rem;
     }
